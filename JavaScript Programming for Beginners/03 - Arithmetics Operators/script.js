@@ -28,3 +28,16 @@ console.log(result);
 //moduls
 let r = 5 % 2;
 console.log(r);
+
+//challenge
+let baseWeight = 10000;
+let foodWeight = 100;
+let passengersWeight = 10;
+
+let fuelUnitWeight = 2;
+let fuelunits = 100;
+
+
+let fuelWeight = fuelUnitWeight * fuelunits;
+let totalWeight = baseWeight + foodWeight + passengersWeight + fuelWeight;
+console.log(totalWeight);
