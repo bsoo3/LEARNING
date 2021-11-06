@@ -17,6 +17,12 @@ function Hello(){
  var isHello = false;
  return (
    <span>{isHello ? 'Hello': 'Goodbye'}</span>
+   /*
+    <span>
+    {isHello && 'Hello'}
+    {!isHello && 'Goodbye'}
+    </span>
+    */
  );
 }
 /*
