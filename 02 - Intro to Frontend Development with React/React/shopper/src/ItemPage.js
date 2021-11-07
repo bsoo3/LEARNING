@@ -14,3 +14,9 @@ function ItemPage({items}){
         </ul>
     );
 }
+
+ItemPage.propTypes ={
+    items: PropTypes.array.isRequired
+};
+
+export default ItemPage;
