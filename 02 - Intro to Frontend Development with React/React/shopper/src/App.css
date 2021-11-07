@@ -1,43 +1,42 @@
-.App{
+.App {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.App-nav{
+.App-nav {
     margin: 20px;
-    padding: 18px;
+    padding: 18 px;
     border-bottom: 2px solid #508fca;
 }
 
-.App-nav ul{
+.App-nav ul {
     padding: 0;
     margin: 0;
 }
 
-.App-nav button{
-    font-size: 18px;
+.App-nav button {
+    font-size:  18px;
     background: transparent;
     border: none;
     cursor: pointer;
 }
 
-.App-nav-item{
-    list-style: none; 
+.App-nav-item {
+    list-style: none;
     display: inline-block;
     margin-right: 32px;
     font-size: 24px;
-    border-bottom: 4px solid transparent ;
+    border-bottom: 4px solid transparent;
 }
 
-.App-nav-item button:hover{
-    color: #999999
+.App-nav-item button:hover {
+    color: #999999;
 }
 
-.App-nav-item.selected{
+.App-nav-item.selected {
     border-bottom-color: #ffaa3f;
 }
 
-
-.App-content{
+.App-content {
     margin: 0 20px;
 }
