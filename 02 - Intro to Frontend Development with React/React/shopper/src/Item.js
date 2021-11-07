@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 import PropTypes from 'prop-types';
 import './Item.css';
 
-const Item = ({item, onAddToCart}) =>(
+const Item = ( { item, children } ) => (
     <div className="Item">
         <div className="Item-left">
             <div className="Item-image"/>
@@ -17,17 +17,14 @@ const Item = ({item, onAddToCart}) =>(
             <div className="Item-price">
                 ${item.price}
             </div>
-            <button className="Item-addToCarrt">
-                Add to cart
-            </button>
+            {children}
         </div>
     </div>
 );
 
-Item.PropTypes = {
+Item.propTypes = {
     item: PropTypes.object.isRequired,
     onAddToCart: PropTypes.func.isRequired
 };
 
 export default Item;
-
